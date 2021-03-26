@@ -1,20 +1,24 @@
 import 'package:flutter/material.dart';
+import 'package:proj21/homepage.dart';
+import 'package:proj21/merchantregistration.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(new MyApp());
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Welcome to Flutter',
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('Welcome to Flutter'),
-        ),
-        body: Center(
-          child: Text('ibra is the king'),
-        ),
-      ),
+    return new MaterialApp(
+      title: 'Navigation',
+      routes: <String, WidgetBuilder> {
+        '/HomePage': (BuildContext context) => new HomePage(),
+        '/MerchantRegistration': (BuildContext context) => new MerchantRegistration(),
+
+      },
+      home: new HomePage(),
     );
   }
 }
+
+
+
+
