@@ -85,6 +85,20 @@ class HomePage extends StatelessWidget {
 
     );
   }
-
+  
+  //@override
+  //void initState() {
+    // TODO: implement initState
+  //  super.initState();
+  //  uid = FirebaseAuth.instance.currentUser.uid;
+  //}
 }
+
+ 
+
+
+
+
+
+
 

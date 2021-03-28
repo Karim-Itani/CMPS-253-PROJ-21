@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f571f657-1950-4009-8e7e-706a7311cc1d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/../../.flutter-plugins" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/../../.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/generated_plugin_registrant.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../lib/generated_plugin_registrant.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/homepage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../lib/homepage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +39,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="settings.editor.selected.configurable" value="configurable.group.other" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -49,6 +56,18 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="878" y="276" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616956982195">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="878" y="276" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.209.1842.986/0.0.2560.1400@0.0.2560.1400" timestamp="1616956982195" />
+    <state x="1179" y="378" key="FileChooserDialogImpl" timestamp="1616957046522">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1179" y="378" key="FileChooserDialogImpl/2560.209.1842.986/0.0.2560.1400@0.0.2560.1400" timestamp="1616957046522" />
+    <state x="371" y="163" key="SettingsEditor" timestamp="1616957036832">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="371" y="163" key="SettingsEditor/2560.209.1842.986/0.0.2560.1400@0.0.2560.1400" timestamp="1616957036832" />
     <state x="1080" y="293" width="672" height="677" key="run.anything.popup" timestamp="1616714248031">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
