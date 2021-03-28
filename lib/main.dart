@@ -7,8 +7,8 @@ import 'package:proj21/loginscreen.dart';
 import 'package:proj21/otp.dart';
 
 void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  Firebase.initializeApp();
+  // WidgetsFlutterBinding.ensureInitialized();
+  // Firebase.initializeApp();
   runApp(new MyApp());
 }
 
