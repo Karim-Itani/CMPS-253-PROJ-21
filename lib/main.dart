@@ -7,7 +7,7 @@ import 'package:proj21/DriverRegistration.dart';
 
 void main() async {
   // WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  //await Firebase.initializeApp();
   runApp(new MyApp());
 }
 
