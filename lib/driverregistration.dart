@@ -11,10 +11,10 @@ class DriverRegistrationState extends  State <DriverRegistration>{
   String _FirstName;
   String _LastName;
   String _PhoneNumber;
-  String _vehiclepn;
-  String _vehiclecolor;
-  String _vehicletype;
-  String _vehiclebrand;
+  String _VehiclePN;
+  String _VehicleColor;
+  String _VehicleType;
+  String _VehicleBrand;
 
 
   final GlobalKey<FormState> _driverKey = GlobalKey<FormState>();
@@ -66,7 +66,7 @@ class DriverRegistrationState extends  State <DriverRegistration>{
     );
   }
 
-  Widget _buildvehiclepn(){
+  Widget _buildVehiclePN(){
     return TextFormField(
       decoration: InputDecoration(labelText: 'Vehicle Plate Number'),
       validator: (String value){
@@ -76,11 +76,11 @@ class DriverRegistrationState extends  State <DriverRegistration>{
         return null;
       },
       onSaved: (String value){
-        _vehiclepn = value;
+        _VehiclePN = value;
       },
     );
   }
-  Widget _buildvehiclecolor(){
+  Widget _buildVehicleColor(){
     return TextFormField(
       decoration: InputDecoration(labelText: 'Vehicle Color'),
       validator: (String value){
@@ -90,11 +90,11 @@ class DriverRegistrationState extends  State <DriverRegistration>{
         return null;
       },
       onSaved: (String value){
-        _vehiclecolor = value;
+        _VehicleColor = value;
       },
     );
   }
-  Widget _buildvehicletype(){
+  Widget _buildVehicleType(){
     return TextFormField(
       decoration: InputDecoration(labelText: 'Vehicle Type'),
       validator: (String value){
@@ -104,11 +104,11 @@ class DriverRegistrationState extends  State <DriverRegistration>{
         return null;
       },
       onSaved: (String value){
-        _vehicletype = value;
+        _VehicleType = value;
       },
     );
   }
-  Widget _buildvehiclebrand(){
+  Widget _buildVehicleBrand(){
     return TextFormField(
       decoration: InputDecoration(labelText: 'Vehicle Brand'),
       validator: (String value){
@@ -118,7 +118,7 @@ class DriverRegistrationState extends  State <DriverRegistration>{
         return null;
       },
       onSaved: (String value){
-        _vehiclebrand = value;
+        _VehicleBrand = value;
       },
     );
   }
@@ -143,10 +143,10 @@ class DriverRegistrationState extends  State <DriverRegistration>{
                 _buildFirstName(),
                 _buildLastName(),
                 _buildPhoneNumber(),
-                _buildvehicletype(),
-                _buildvehiclebrand(),
-                _buildvehiclecolor(),
-                _buildvehiclepn(),
+                _buildVehicleType(),
+                _buildVehicleBrand(),
+                _buildVehicleColor(),
+                _buildVehiclePN(),
                 SizedBox(height:100),
                 RaisedButton(
                   child: Text('Submit'),
@@ -157,10 +157,10 @@ class DriverRegistrationState extends  State <DriverRegistration>{
                     print(_FirstName);
                     print(_LastName);
                     print(_PhoneNumber);
-                    print(_vehicletype);
-                    print(_vehiclebrand);
-                    print(_vehiclecolor);
-                    print(_vehiclepn);
+                    print(_VehicleType);
+                    print(_VehicleBrand);
+                    print(_VehicleColor);
+                    print(_VehiclePN);
 
                   },
                 )
