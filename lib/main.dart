@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       routes: <String, WidgetBuilder> {
         '/HomePage': (BuildContext context) => new HomePage(),
         '/MerchantRegistration': (BuildContext context) => new MerchantRegistration(),
-        '/driverregistration': (BuildContext context) => new driverregistration(),
+        '/DriverRegistration': (BuildContext context) => new DriverRegistration(),
 
       },
       home: new HomePage(),

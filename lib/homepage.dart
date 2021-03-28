@@ -73,7 +73,7 @@ class HomePage extends StatelessWidget {
                       child: new RaisedButton(
                           color: Colors.amber ,
                           child: new Text('DRIVER', style: new TextStyle(fontSize: 20.0),),
-                          onPressed: (){Navigator.of(context).pushNamed('/driverregistration');}),
+                          onPressed: (){Navigator.of(context).pushNamed('/DriverRegistration');}),
                     ),
                   ),
                 )

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class driverregistration extends StatefulWidget{
+class DriverRegistration extends StatefulWidget{
   @override
   State<StatefulWidget> createState(){
-    return driverregistrationState();
+    return DriverRegistrationState();
   }
 }
 
-class driverregistrationState extends  State <driverregistration>{
+class DriverRegistrationState extends  State <DriverRegistration>{
   String _FirstName;
   String _LastName;
   String _PhoneNumber;
